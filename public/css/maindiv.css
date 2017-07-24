@@ -1,0 +1,11 @@
+/*Main Div*/
+
+.maindiv {
+    /*position: relative;*/
+    /*margin-right: 180px;*/
+    /*left: 230px;*/
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 80% ;
+}

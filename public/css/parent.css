@@ -1,0 +1,56 @@
+#parent {
+    display: flex;
+}
+#sidenav {
+    width: 200px;
+    background: lightblue;
+    /* Just so it's visible */
+}
+#maindiv {
+    flex: 1;
+    /* Grow to rest of container */
+    background: lightgreen;
+    /* Just so it's visible */
+}
+/*styling sidenav*/
+/**{*/
+/*padding: 0px;*/
+/*margin :0px ;*/
+/*}*/
+/*.sidenav h1{*/
+/*font-family: arial , sans-serif ;*/
+/*font-weight: 400 ;*/
+/*height: 60px ;*/
+/*width: 100% ;*/
+/*background: #16A5C7;*/
+/*line-height: 60px;*/
+/*color: white;*/
+/*}*/
+#sidenav {
+    width: 20px;
+    height: 666px;
+    background: #1A8DA9;
+}
+#sidenav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    /*padding-right: 100px;*/
+}
+#sidenav ul li{
+    list-style-type: none;
+    /*display: block;*/
+    padding: 15px;
+    border-bottom: 1px solid #236D7F;
+}
+
+#sidenav ul li:hover{
+    background: ;
+    transition : linear all 0.40s ;
+    margin-left: 10px;
+}
+
+#sidenav div ul li a:hover{
+    color: black;
+}
+/*end sidenav*/
